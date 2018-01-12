@@ -27,7 +27,7 @@ def verify(*arg):
 		image_path = ''.join(arg)
 		#print image_path
 	else:
-		print "[*] Example : /home/ubuntu/Pictures/User1.jpg "
+		#print "[*] Example : /home/ubuntu/Pictures/User1.jpg "
 
 		image_path = raw_input("Enter the path of image to check for: ")
 	
@@ -54,7 +54,7 @@ def verify(*arg):
 	#print response
 	
 	if 'Errors' in str(response):
-		print "error"
+		#print "error"
 		return "error"
 	else:
 		#print response['images']
