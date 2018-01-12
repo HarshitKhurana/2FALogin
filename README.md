@@ -24,6 +24,8 @@ You need to have a kairos developer account in order to use the script.
 
 Make an account at https://developer.kairos.com/signup and get the "app_id" and "app_key".
 
+* As of now, it does not support Windows.
+
 INSTALLATION :
 
 * To install all the necessary dependencies run:
@@ -39,4 +41,3 @@ EXECUTION :
 * To execute 2FALogin simply run:
 
 	 ` python Run.py `
-* As of now, it does not support Windows.*
