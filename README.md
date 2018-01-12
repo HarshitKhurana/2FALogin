@@ -9,7 +9,7 @@
 * As soon as you cross the Password based authentication on your system the 2FALogin will automatically begin and if the user(Image of user) does not matches, It will log you out and the login process will have to be started over from the top.
 
 * InCase the system is booted without internet access then 2FALogin will not run and user will directly be able to login.
-  To counter this , Uncomment the line `"os.system("killall -u `whoami`")"` in 'Kairos_API_verify.py", Then if the internet is not available at booting time the user will not be allowed to login.
+  To counter this , Uncomment the line `"os.system("killall -u whoami")"` in 'Kairos_API_verify.py", Then if the internet is not available at booting time the user will not be allowed to login.
 
 * Incase using the 2FALogin wth Raspberry Pi and external USB Camera, ensure you skip around 5 frames( may varry) before using the actual frame/image for comparison.
   
