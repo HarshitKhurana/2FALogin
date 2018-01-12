@@ -39,3 +39,4 @@ EXECUTION :
 * To execute 2FALogin simply run:
 
 	 ` python Run.py `
+* As of now, it does not support Windows.*
