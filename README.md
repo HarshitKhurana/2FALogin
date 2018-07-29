@@ -1,5 +1,4 @@
 * Harshit Khurana
-* hkhurana3@gmail.com
 * 11.01.18
 
 
